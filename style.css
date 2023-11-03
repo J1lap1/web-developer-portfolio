@@ -1,6 +1,6 @@
 body{
     font-family: open sans;
-    background-color: #FFF8F3;;
+    
 }
 nav{
     display: flex;
@@ -29,13 +29,43 @@ nav>ul>li{
 
     margin-left: 51px;
 }
-nav>ul>li>button{
-    width: 150px;
-    height: 64px;
+.btn-primary{
+    padding: 18px 35px;
     font-size: 20px;
     font-weight: 700;
     border-radius: 5px;
     background: #FD6E0A;
     color: #FFF8F3;
     border: none;
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    margin-left: 226px;
+    margin-top: 49px;
+}
+.banner-head{
+font-size: 45px;
+font-weight: 600;
+margin: 0px 0 5px 0;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin: 0;
+}
+.banner-content>p{
+color:#757575;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+margin: 23px 0;
+}
+.profile-pic{
+    width: 584px;
+height: 676px;
+margin-right: 139px;
 }
