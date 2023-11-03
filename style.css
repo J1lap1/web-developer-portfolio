@@ -1,12 +1,14 @@
 body{
     font-family: open sans;
+    margin: 0px;
     
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:51px 230px 47px 230px;
+    margin:0px 230px 47px 230px;
+    padding-top: 51px;
 }
 nav>h1{
     font-weight: 800;
@@ -40,12 +42,18 @@ nav>ul>li{
 }
 .header{
     background-color: #FFF8F3;
+    background-image: url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: center left;
 }
 .banner{
     display: flex;
     align-items: center;
     margin-left: 226px;
     margin-top: 49px;
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner-head{
 font-size: 45px;
